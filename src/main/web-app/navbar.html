@@ -1,0 +1,24 @@
+<div class="flex-item d-flex h-100 navbar">
+    <nav class="navigation">
+        <ul class="nav nav-pills flex-column text-center navlist">
+            <li class="nav-item">
+                <a href="<c:url value='/profile'/>" class="nav-link" aria-current="page">
+                    Profile
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="<c:url value='/projects'/>" class="nav-link text-center">
+                    Projects
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="<c:url value='/logout'/>" class="nav-link text-center">
+                    Logout
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<script>
+    document.querySelector('a.nav-link[href="' + document.location.pathname + '"]').className += ' active';
+</script>

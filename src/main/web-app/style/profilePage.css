@@ -1,0 +1,61 @@
+body {
+    background-color: #EAE7DC !important;
+}
+.header {
+    height: 115px;
+    width: auto;
+    background-color: #E98074;
+    font: normal 36px "Comfortaa";
+    color: #EAE7DC;
+    line-height: 115px;
+}
+.navbar {
+    padding: 0;
+    margin: 0;
+}
+.navigation {
+    /*margin: 90px 0 0 0 !important;*/
+    background-color: #8E8D8A !important;
+    width: 210px !important;
+    height: 900px !important;
+}
+
+.nav-item {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.nav-link {
+    background-color: #D8C3A5 !important;
+    color: #E98074 !important;
+}
+
+.nav-link.active {
+    border-top: 3px solid #E98074 !important;
+    border-bottom: 3px solid #E98074 !important;
+}
+
+.profile {
+    font: bold 16px "Comfortaa";
+    color: #8E8D8A !important;
+    margin-left: 50px;
+}
+
+.col-md-6 {
+    width: 150px;
+}
+.badge {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    padding: 5px !important;
+    background-color: white !important;
+    color: #8E8D8A !important;
+    font-size: 16px !important;
+    overflow-wrap: break-word !important;
+    white-space: break-spaces !important;
+    text-align: left !important;
+}
+button.btn-secondary {
+    background-color: #8E8D8A !important;
+    border-color: #8E8D8A !important;
+}

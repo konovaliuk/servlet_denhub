@@ -1,0 +1,148 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #EAE7DC !important;
+}
+.header {
+    height: 115px;
+    width: auto;
+    background-color: #E98074;
+    font: normal 36px "Comfortaa";
+    color: #EAE7DC;
+    line-height: 115px;
+}
+.navbar {
+    padding: 0;
+    margin: 0;
+}
+.navigation {
+    background-color: #8E8D8A !important;
+    width: 210px !important;
+    height: 900px !important;
+}
+
+.nav-item {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.nav-link {
+    background-color: #D8C3A5 !important;
+    color: #E98074 !important;
+}
+
+.nav-link.active {
+    border-top: 3px solid #E98074 !important;
+    border-bottom: 3px solid #E98074 !important;
+}
+.project-tasks, .project-team, .project-info, .project-progress {
+    margin: 20px;
+    padding: 10px !important;
+    justify-content: center;
+
+}
+.project-info {
+    width: 450px;
+    height: 300px;
+    background-color: #8E8D8A;
+    color: #D8C3A5;
+    overflow-wrap: break-word !important;
+    /*white-space: break-spaces !important;*/
+    /*text-align: left !important;*/
+}
+
+.project-progress {
+    width: 450px;
+    height: 300px;
+    background-color: #D8C3A5;
+    color: #8E8D8A;
+}
+
+.project-team {
+    width: 450px;
+    height: 300px;
+    background-color: #D8C3A5;
+    color: #EAE7DC;
+}
+
+.project-tasks {
+    width: 450px;
+    height: 300px;
+    background-color: #8E8D8A;
+    color: #D8C3A5;
+}
+
+.break-line.a{
+    background-color: #D8C3A5;
+}
+
+
+.break-line.b{
+    background-color: #EAE7DC;
+}
+
+.info-title {
+    justify-content: center;
+}
+
+.btn.btn-primary {
+    padding: 5px 25px 5px 25px !important;
+    background-color: #E98074 !important;
+    border-color: #E98074 !important;
+    font-size: 16px !important;
+}
+
+.modal-content {
+    padding: 0 20px 0 20px;
+    color: #8E8D8A !important;
+    background-color: #EAE7DC !important;
+}
+.modal-body label {
+    color: #8E8D8A !important;
+}
+.modal-body input {
+    margin-bottom: 10px !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-color: white !important;
+}
+
+.invite-user {
+    border-color: #D8C3A5 !important;
+}
+.invite-user:active {
+    background-color: #8E8D8A !important;
+}
+
+.invite-user:hover {
+    background-color: #8E8D8A !important;
+}
+
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.invite {
+    background-color: #E98074 !important;
+    border-color: #E98074 !important;
+}
+
+.change-role {
+    background-color: #EAE7DC !important;
+    border-color: #EAE7DC !important;
+}
+
+.edit-project {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}

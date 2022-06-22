@@ -1,0 +1,154 @@
+body {
+    background-color: #EAE7DC !important;
+}
+.header {
+    height: 115px;
+    width: auto;
+    background-color: #E98074;
+    font: normal 36px "Comfortaa";
+    color: #EAE7DC;
+    line-height: 115px;
+}
+.navbar {
+    padding: 0;
+    margin: 0;
+}
+.navigation {
+    /*margin: 90px 0 0 0 !important;*/
+    background-color: #8E8D8A !important;
+    width: 210px !important;
+    height: 900px !important;
+}
+
+.nav-item {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.nav-link {
+    background-color: #D8C3A5 !important;
+    color: #E98074 !important;
+}
+
+.nav-link.active {
+    border-top: 3px solid #E98074 !important;
+    border-bottom: 3px solid #E98074 !important;
+}
+
+.tasks-grid {
+    background-color: #8E8D8A;
+    margin: 50px;
+    width: 1500px;
+    height: 700px;
+}
+
+.modal-content {
+    padding: 0 20px 0 20px;
+    color: #8E8D8A !important;
+    background-color: #EAE7DC !important;
+}
+.modal-body label {
+    color: #8E8D8A !important;
+}
+.modal-body input, select {
+    margin-bottom: 10px !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-color: white !important;
+    color: #8E8D8A !important;
+}
+
+.modal-body select {
+    color: #8E8D8A !important;
+}
+
+.btn-secondary {
+    color: #EAE7DC !important;
+}
+
+.add, .add-task {
+    background-color: #E98074 !important;
+    border-color: #E98074 !important;
+}
+
+.add-task {
+    margin-left: 50px;
+}
+
+.vertical-line {
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #D8C3A5;
+    width: 2px !important;
+    margin-right: 20px;
+}
+
+.tasks-list {
+    margin: 5px;
+    padding: 5px;
+}
+
+.list-title {
+    background-color: #D8C3A5 !important;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #E98074;
+    font-size: 18px;
+    justify-content: center;
+}
+
+.task {
+    padding: 10px;
+    margin-top: 3px;
+    /*background-color: #D8C3A5;*/
+    color: #EAE7DC;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tasks {
+    padding-left: 0 !important;
+}
+
+.open-task, .delete-task {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.task-body {
+    padding-bottom: 20px;
+}
+
+.edit-task {
+    margin-right: 10px;
+}
+
+input, select {
+    margin-bottom: 10px !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-color: white !important;
+    color: #8E8D8A !important;
+}
+
+select {
+    color: #8E8D8A !important;
+}
+
+.eddit {
+    margin: 0 550px 0 550px;
+}
+
+.save {
+    margin-right: 125px;
+}
+
+.task-edit {
+    margin-top: 100px
+}

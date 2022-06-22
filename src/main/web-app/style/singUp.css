@@ -1,0 +1,55 @@
+:root {
+    --main-bg-color: #EAE7DC;
+    --main-button-color: #E98074;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: var(--main-bg-color) !important;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-color: white !important;
+}
+
+
+button[type="submit"] {
+    background-color: var(--main-button-color) !important;
+    border-color: var(--main-button-color) !important;
+    color: #EAE7DC !important;
+}
+
+.form-signin label {
+    color: #8E8D8A !important;
+}
+
+.mt-2.text-muted {
+    color: #8E8D8A !important;
+}
+
+a {
+    color: #8E8D8A !important;
+    text-decoration: none !important;
+}
